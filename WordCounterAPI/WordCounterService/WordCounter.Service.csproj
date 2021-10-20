@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="QueryServices\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WordCounter.Business\WordCounter.Business.csproj" />
+    <ProjectReference Include="..\WordCounter.DataAccess\WordCounter.DataAccess.csproj" />
+    <ProjectReference Include="..\WordCounter.Extensions\WordCounter.Extensions.csproj" />
+    <ProjectReference Include="..\WordCounterContracts\WordCounter.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
