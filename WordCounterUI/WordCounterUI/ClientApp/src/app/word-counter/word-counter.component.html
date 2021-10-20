@@ -1,20 +1,12 @@
-<!--<div class="tab">
-  <span (click)="show('show1')" class="btn">show child 1</span>
-  <span (click)="show('show2')" class="btn">show child 2</span>
-  <span (click)="show('show3')" class="btn">show child 3</span>
-</div>
 
-<div *ngIf="show1"><Child1>CHILD 1</Child1></div>
-<div *ngIf="show2"><Child2>CHILD 2</Child2></div>
-<div *ngIf="show3"><Child3>CHILD 3</Child3></div>-->
 
-<h4>Chose an option:</h4>
+<h4>Choose an option:</h4>
 <select [ngModel]="options" (ngModelChange)="onSelectItem($event)" name="inputType" class="drop-down-picker">
   <option class="option" [ngValue]="i" *ngFor="let i of options">{{i.text}}</option>
 </select>
 
 <div *ngIf="selectedOption == 1">
-  <h4>Enter a text here:</h4>
+  <h4>Enter text here:</h4>
   <textarea class="textarea-field full-width" [(ngModel)]="textInput"></textarea>
   <div>
     <h3 *ngIf="displayResult" class="result">Total words: {{resultvalue}}</h3>
