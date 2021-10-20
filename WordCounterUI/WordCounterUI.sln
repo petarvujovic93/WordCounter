@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordCounterUI", "WordCounterUI\WordCounterUI.csproj", "{46286A13-27E8-4A5E-A888-277C1E90D5B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "REST", "REST", "{DFE55EEC-7F8D-473F-ACFA-029DBF2F77DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCounter.Rest", "WordCounter.Rest\WordCounter.Rest.csproj", "{8526ED4F-445B-4F8F-BAF2-AB774091F1DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service layer", "Service layer", "{E4DB5A8E-95E7-4973-B67B-B1FDC083CACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCounter.Service", "WordCounter.Service\WordCounter.Service.csproj", "{7BD34F73-8D24-42FF-A709-FDE1A9F846C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C8895445-F94E-4A3A-B328-37AF384BC9F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCounter.Common", "WordCounter.Common\WordCounter.Common.csproj", "{BFB955DB-DBF7-48C5-A5C0-9F0FDCA845A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46286A13-27E8-4A5E-A888-277C1E90D5B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46286A13-27E8-4A5E-A888-277C1E90D5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46286A13-27E8-4A5E-A888-277C1E90D5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46286A13-27E8-4A5E-A888-277C1E90D5B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8526ED4F-445B-4F8F-BAF2-AB774091F1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8526ED4F-445B-4F8F-BAF2-AB774091F1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8526ED4F-445B-4F8F-BAF2-AB774091F1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8526ED4F-445B-4F8F-BAF2-AB774091F1DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD34F73-8D24-42FF-A709-FDE1A9F846C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD34F73-8D24-42FF-A709-FDE1A9F846C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD34F73-8D24-42FF-A709-FDE1A9F846C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD34F73-8D24-42FF-A709-FDE1A9F846C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB955DB-DBF7-48C5-A5C0-9F0FDCA845A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB955DB-DBF7-48C5-A5C0-9F0FDCA845A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB955DB-DBF7-48C5-A5C0-9F0FDCA845A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB955DB-DBF7-48C5-A5C0-9F0FDCA845A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8526ED4F-445B-4F8F-BAF2-AB774091F1DA} = {DFE55EEC-7F8D-473F-ACFA-029DBF2F77DE}
+		{7BD34F73-8D24-42FF-A709-FDE1A9F846C0} = {E4DB5A8E-95E7-4973-B67B-B1FDC083CACD}
+		{BFB955DB-DBF7-48C5-A5C0-9F0FDCA845A5} = {C8895445-F94E-4A3A-B328-37AF384BC9F9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51675D6D-6860-43E9-A6D4-FCEE18CE01E9}
+	EndGlobalSection
+EndGlobal
